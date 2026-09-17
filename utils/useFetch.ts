@@ -1,6 +1,6 @@
 const useFetch = async (
     url: string, 
-    queryParams?: Record<string, string>, 
+    queryParams?: Record<string,any>, 
     options?: Record<string,any>,
     errorHandler?: (status: number) => void
 ) => {
